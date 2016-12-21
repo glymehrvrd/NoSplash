@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:baselineAligned="false"
+    android:paddingRight="?android:attr/scrollbarSize">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_toRightOf="@id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearance"
+        android:ellipsize="marquee"
+        android:fadingEdge="horizontal"
+        android:gravity="center_vertical"
+        android:textAlignment="center" />
+
+
+    <!-- Preference should place its actual preference widget here. -->
+</LinearLayout>

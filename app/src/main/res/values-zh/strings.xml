@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_add">添加规则</string>
+    <string name="action_donate">设置</string>
+    <string name="confirm_delete_rule">确认删除这条规则？</string>
+    <string name="dialog_choose_app_title">选择应用</string>
+    <string name="dialog_delete_rule">删除规则</string>
+    <string name="no">否</string>
+    <string name="yes">是</string>
+    <string name="dialog_donate_title">捐赠</string>
+    <string name="donate_alipay">支付宝</string>
+    <string name="action_export">导出</string>
+    <string name="action_import">导入</string>
+    <string name="action_about">关于</string>
+    <string name="action_help">帮助</string>
+    <string name="succeed">成功！</string>
+    <string name="about_title">关于</string>
+    <string name="export_succ">导出成功，导出位置：sdcard/nosplash_conf.json</string>
+    <string name="loading">加载中...</string>
+</resources>
